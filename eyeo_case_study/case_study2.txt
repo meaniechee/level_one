@@ -1,0 +1,2 @@
+! The filter is not blocking the banner as it is written as /ban.php?
+||k.fcdhxla.com^$domain=nicesearches.com,third-party

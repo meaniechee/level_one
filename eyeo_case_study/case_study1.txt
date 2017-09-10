@@ -1,0 +1,19 @@
+! Blocking ads and hiding paid content in CNN
+*g.doubleclick.net^$domain=cnn.com
+cnn.com##.OUTBRAIN
+
+! Blocking ads and hiding Paid Content by Outbrain in CNN
+||g.doubleclick.net^$domain=cnn.com
+cnn.com^###partner-zone
+cnn.com^##section[data-zone-label="PaidPartnerContent"]
+##a[href^="https://ad.doubleclick.net/"]
+##a[href^="https://www.cnnmoneytransfers.com/"]
+##a[href^="https://cnnmoneytransfers.com/"]
+cnn.com##.ob-widget-items-container
+
+! Blocking ads and hiding non-Acceptable Ads stuff in TMZ
+tmz.com###popular-show-clips
+tmz.com##.ad-title
+tmz.com##.adbadge
+
+

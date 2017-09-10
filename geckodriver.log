@@ -732,3 +732,113 @@ Full stack:
 1502200920934	Marionette	INFO	Listening on port 63005
 1502200922047	Marionette	WARN	TLS certificate errors will be ignored for this session
 1502201148526	Marionette	INFO	Ceased listening
+1505035806545	geckodriver	INFO	geckodriver 0.18.0
+1505035806571	geckodriver	INFO	Listening on 127.0.0.1:57940
+1505035808684	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505035809061	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505035809852	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[Child 11024] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505035812361	Marionette	INFO	Listening on port 57946
+1505035812396	Marionette	INFO	Listening on port 57946
+[Parent 9340] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505035813780	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1505035813782	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505035814933	geckodriver	INFO	geckodriver 0.18.0
+1505035814939	geckodriver	INFO	Listening on 127.0.0.1:57971
+1505035828374	geckodriver	INFO	geckodriver 0.18.0
+1505035828381	geckodriver	INFO	Listening on 127.0.0.1:57973
+1505035832351	geckodriver	INFO	geckodriver 0.18.0
+1505035832357	geckodriver	INFO	Listening on 127.0.0.1:57977
+1505035834451	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505035834737	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505035835243	Marionette	INFO	Enabled via --marionette
+[Child 6492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505035836862	Marionette	INFO	Listening on port 57983
+1505035836884	Marionette	INFO	Listening on port 57983
+1505035837581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505035837630	Marionette	DEBUG	loaded listener.js
+1505035837664	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505035839029	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505035839030	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505035850566	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://moogoo.com.au/"
+1505035850784	Marionette	DEBUG	Received DOM event "pageshow" for "https://moogoo.com.au/"
+1505035850893	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=f389407797fe60c&origin=https%3A%2F%2Fmoogoo.com.au"
+1505035850895	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=f389407797fe60c&origin=https%3A%2F%2Fmoogoo.com.au"
+1505035879369	Marionette	DEBUG	Received DOM event "pageshow" for "https://moogoo.com.au/"
+1505035879510	Marionette	DEBUG	Received DOM event "beforeunload" for "https://moogoo.com.au/"
+1505035882229	Marionette	DEBUG	Received DOM event "pagehide" for "https://moogoo.com.au/"
+1505035882229	Marionette	DEBUG	Received DOM event "unload" for "https://moogoo.com.au/"
+1505035882682	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1505035882746	Marionette	DEBUG	Received DOM event "pageshow" for "https://moogoo.com.au/all-products.html"
+1505035882994	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://moogoo.com.au/all-products.html"
+1505035883075	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=f854d53d89f918&origin=https%3A%2F%2Fmoogoo.com.au"
+1505035883076	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=f854d53d89f918&origin=https%3A%2F%2Fmoogoo.com.au"
+1505035891040	Marionette	DEBUG	Received DOM event "pageshow" for "https://moogoo.com.au/all-products.html"
+[GPU 7492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920027,name=PNecko::Msg_RemoveRequestContext) Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
