@@ -1,9 +1,0 @@
-! Whitelisting Ads by Taboola on thefiscaltimes.com
-@@||thefiscaltimes.com^$elemhide
-
-! Whitelisting Ads by Google Adsense (text) ads on bragmybag.com
-@@||bragmybag.com^$elemhide
-@@||tpc.googlesyndication.com^$~image,domain=bragmybag.com
-@@||googleads.g.doubleclick.net^$~image,domain=bragmybag.com
-@@||pagead2.googlesyndication.com^$~image,domain=bragmybag.com
-googleadservices.com/pagead/aclk^$image,domain=bragmybag.com

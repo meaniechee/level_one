@@ -1,9 +1,0 @@
-! The following filter is hiding the 'RELATED NEWS', 'MORE NEWS', 'MORE BINGE GUIDE', 'MORE WEEKLY KETCHUP', 'MORE COUNTDOWN GUIDES' section as its class="panel-rt panel-box article-more"
-##.panel-rt.panel-box.article-more
-
-! 'AROUND THE WEB' section is blocked but as it is powered by Zergnet, an ad-network; I have decided not to allow it as it is not labelled as 'Advertisement' or 'Sponsored Content'
-
-! Allow for certain elements to be exempted from 'elemhide' e.g. exempting specific element ids or classes from being unhidden by @@||example.com^$elemhide
-! Suggested filter format: @@||example.com^$elemhide,~##.exampleClass
-! This filter will disable all element hiding filters apart from class = exampleClass
-
