@@ -1,0 +1,8 @@
+@@|https://easylist.club/*.js|$script,domain=oload.tv|openload.co
+||kissanime.ru/Scripts/vr.js
+||kissanime.ru/Scripts/css.js
+||kissanime.ru^$subdocument
+||adexp.net^$third-party
+||cloudfront.net^$domain=kissanime.ru
+/assets/js/license.$domain=oload.tv|openload.co
+/assets/js/script.$domain=oload.tv|openload.co
